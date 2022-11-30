@@ -1,5 +1,3 @@
-import com.sun.source.doctree.ParamTree;
-
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
@@ -10,9 +8,8 @@ public class task0 {
         Random random = new Random();
         Scanner input = new Scanner(System.in);
         int i;
-        int answer = 1;
+        int answer;
         int res = 0;
-        while (answer != 0) {
 
 // add elements in array
             System.out.print("How much elements do you want to add in your array? ");
@@ -40,11 +37,5 @@ public class task0 {
             } else {
                 System.out.println("sorry! but array DOESN'T INCLUDE an element " + answer);
             }
-
-// exit or continue...
-            System.out.println("\nyou can try again - enter 1 " +
-                    "or you can get out - enter 0");
-            answer = input.nextInt();
-        }
     }
 }
