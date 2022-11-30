@@ -36,9 +36,7 @@ public class Task4 {
                 int[] array2 = new int[array1.length - count];
 
                 for (i = 0, j = 0; i < array1.length; i++) {
-                    if (array1[i] % 2 != 0) {
-                        continue;
-                    } else {
+                    if (array1[i] % 2 == 0) {
                         array2[j] = array1[i];
                         j++;
                     }
