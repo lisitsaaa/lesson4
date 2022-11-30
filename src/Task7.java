@@ -6,7 +6,7 @@ public class Task7 {
     public static void main(String[] args) {
         Random random = new Random();
         Scanner input = new Scanner(System.in);
-        int i, j;
+        int i;
 
 // create a array; add elements; and print result
         System.out.print("How much elements do you wanna add in your array? ");
