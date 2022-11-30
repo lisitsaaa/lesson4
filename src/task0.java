@@ -41,7 +41,7 @@ public class task0 {
                 System.out.println("sorry! but array DOESN'T INCLUDE an element " + answer);
             }
 
-// exit or continue
+// exit or continue...
             System.out.println("\nyou can try again - enter 1 " +
                     "or you can get out - enter 0");
             answer = input.nextInt();
