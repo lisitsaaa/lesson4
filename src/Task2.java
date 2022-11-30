@@ -20,25 +20,25 @@ public class Task2 {
 // min
         int min = array1[0];
         for (int res : array1) {
-            if(res < min){
+            if (res < min) {
                 min = res;
             }
         }
         System.out.println(min + " -> min");
 // max
         int max = array1[0];
-        for(int res : array1){
-            if(res > max){
+        for (int res : array1) {
+            if (res > max) {
                 max = res;
             }
         }
         System.out.println(max + " -> max");
 // average value
         int average = 0;
-        for(int res : array1){
+        for (int res : array1) {
             average = res + average;
         }
-        System.out.println((average/answer) +" -> average value");
+        System.out.println((average / answer) + " -> average value");
 
     }
 }
