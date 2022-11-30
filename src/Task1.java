@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-public class task1 {
+public class Task1 {
     public static void main(String[] args) {
         Random random = new Random();
         Scanner input = new Scanner(System.in);
@@ -11,24 +11,24 @@ public class task1 {
         int count = 0;
 
 // create a first array and print it
-            System.out.print("How much elements do you wanna add in your array? ");
-            answer = input.nextInt();
-            int[] array1 = new int[answer];
+        System.out.print("How much elements do you wanna add in your array? ");
+        answer = input.nextInt();
+        int[] array1 = new int[answer];
 
-            for (i = 0; i < array1.length; i++) {
-                array1[i] = random.nextInt(50);
-            }
-            System.out.println(Arrays.toString(array1));
+        for (i = 0; i < array1.length; i++) {
+            array1[i] = random.nextInt(50);
+        }
+        System.out.println(Arrays.toString(array1));
 
 // remove an element
-            System.out.print("which element do you want to remove? ");
-            answer = input.nextInt();
+        System.out.print("which element do you want to remove? ");
+        answer = input.nextInt();
 
-            for (int res : array1) {
-                if (res == answer) {
-                    count += 1;
-                }
+        for (int res : array1) {
+            if (res == answer) {
+                count += 1;
             }
+        }
 
 // print a current status
         if (count != 0) {
